@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <script>
+    if (window.self !== window.top) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      window.addEventListener('message', function(e) {
+        if (e.data && e.data.type === 'poli-theme') {
+          document.documentElement.setAttribute('data-theme', e.data.light ? 'light' : 'dark');
+        }
+      });
+    }
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Diagnose tattoo machine and power supply faults with this step-by-step troubleshooter. Covers rotary, coil, and wireless machines — voltage issues, connection faults, motor problems.">
+  <title>Power Supply & Machine Troubleshooter | Poli International</title>
+  <link rel="stylesheet" href="/tools/power-supply-troubleshooter/css/style.css">
+</head>
+<body>
+<div class="tool-wrapper">
+
+  <header class="tool-header">
+    <div class="tool-header__badge">⚡ Machine Diagnostics</div>
+    <h1>Power Supply &amp; Machine Troubleshooter</h1>
+    <p>Step-by-step fault diagnosis for tattoo machines. Answer a few questions about your symptoms to get a targeted fix checklist.</p>
+  </header>
+
+  <div id="wizard"></div>
+
+  <div class="disclaimer">
+    <strong>Safety note:</strong> Always disconnect your machine from the power supply before inspecting internal components.
+    If a machine sparks, smells of burning, or shows signs of electrical damage — stop use immediately.
+  </div>
+
+</div>
+<script src="/tools/power-supply-troubleshooter/js/app.js"></script>
+</body>
+</html>
